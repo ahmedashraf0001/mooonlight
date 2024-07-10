@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300&display=swap');
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
 :root {
@@ -238,6 +239,10 @@ textarea {
 .root__649bb {
   background-color: var(--background-secondary);
 }
+body, .appMount_ea7e65 {
+  background: var(--bg-overlay-2, var(--background-primary));
+  text-rendering: optimizeLegibility;
+}
 
 .theme-dark .themed_b152d4 {
   background: var(--background-secondary);
@@ -307,6 +312,7 @@ textarea {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9); 
   background-color: var(--background-secondary);
 }
+
 .container_f79ab4
 {
   background-color: var(--background-tertiary);
@@ -315,6 +321,10 @@ textarea {
   padding: 5px;
 
   border-radius: 20px;
+}
+body, .appMount_ea7e65 {
+  background: var(--bg-overlay-2, #121212);
+  text-rendering: optimizeLegibility;
 }
 .channelTextArea_c2094b {
   margin-bottom: 24px;
