@@ -482,3 +482,13 @@ a[href="https://support.discord.com"] /* hide help */
 .wrapper__6bf2d.minimum__7f356 /* private call */ {
 	margin-bottom: 12px;
 }
+.container_f2bfbb, .reactors_f2bfbb {
+  background-color: var(--background-secondary);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9); 
+}
+.animatorRight_f88ae3 
+{
+  background-color: var(--background-secondary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9); 
+}
