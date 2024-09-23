@@ -492,3 +492,15 @@ a[href="https://support.discord.com"] /* hide help */
   background-color: var(--background-secondary);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9); 
 }
+.hoverButtonGroup_d0395d
+{
+    background-color: var(--background-secondary);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9); 
+    border-radius: 20px;
+}
+.buttonsInner_d5deea 
+{
+    background-color: var(--background-secondary);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9); 
+    border-radius: 20px;
+}
