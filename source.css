@@ -6,7 +6,7 @@
 	--font: 'Noto Kufi Arabic';
 
 	/* top left corner text */
-	--corner-text: 'Lyr1c';
+	--corner-text: 'Mario';
 
 	/* thickness of messages divider */
 	--divider-thickness: 3px;
@@ -716,11 +716,6 @@ button.button__201d5 /* small buttons */,
 	margin-left: 6px;
 }
 
-/* top bar height */
-[class^='typeWindows'] {
-	height: calc(var(--spacing) + 12px);
-	margin: 0;
-}
 
 /* window controls */
 
@@ -1238,13 +1233,22 @@ html.theme-light,
 	--green-500: var(--accent-4);
 	--green-530: var(--accent-5);
 
-	--brand-experiment-15a: var(--mention); /* background of reacted reactions */
-	--brand-360: var(--accent-2); /* invite text */
+	--brand-experiment-15a: var(--mention); 
+	--brand-360: var(--accent-2); 
 
-	--primary-500: var(--bg-2); /* progress bars */
-	--primary-600: var(--bg-3); /* delete message preview */
-	--primary-630: var(--bg-3); /* billing transaction history */
-	--primary-660: var(--bg-3); /* search popout "enter" bar */
+	--primary-500: var(--bg-2); 
+	--primary-600: var(--bg-3); 
+	--primary-630: var(--bg-3); 
+	--primary-660: var(--bg-3); 
 
 	--white-500: var(--text-1);
+}
+
+[class^='typeWindows'] {
+	height: calc(var(--spacing) + 12px);
+	margin: 10px 5px 0 0;
+}
+[class^='wordmarkWindows'] {
+    padding: 4px var(--spacing);
+	margin-top: 5px;
 }
